@@ -39,6 +39,8 @@ npm install
 
 ### 4. Run the application
 
+#### Start the Mongo DB Server
+
 #### Start the backend server
 
 ```bash
