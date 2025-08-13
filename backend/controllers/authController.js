@@ -36,7 +36,7 @@ const register = async (req, res) => {
     await user.save()
 
     await transporter.sendMail({
-        from: "legendhacker422@gmail.com",
+        from: process.env.NODE_MAILER_EMAIL,
         to: email,
         subject: "OTP Verification - Notes App",
         html: `
